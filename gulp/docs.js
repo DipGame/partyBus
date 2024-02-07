@@ -49,7 +49,7 @@ gulp.task('html:docs', function () {
         .pipe(changed('./docs/'))
         .pipe(plumber(plumberNotify("HTML")))
         .pipe(fileInclude(fileIncludeSettings))
-        .pipe(webpHTML())
+        // .pipe(webpHTML())
         .pipe(htmlclean())
         .pipe(gulp.dest('./docs/'))
 });
