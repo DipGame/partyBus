@@ -1,0 +1,13 @@
+html, body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, #100B38 0%, #0E0D16 100%),
+        linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+    border-top: 1px solid #FFFFFF33;
+}

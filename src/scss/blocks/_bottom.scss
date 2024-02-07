@@ -1,0 +1,14 @@
+.bottom__list {
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    background-color: #FFF;
+    height: 150px;
+    padding: 45px 0;
+    gap: 30px;
+    img {
+        width: 100%;
+        max-width: 170px;
+        object-fit: contain;
+    }
+}

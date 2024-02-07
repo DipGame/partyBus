@@ -1,0 +1,26 @@
+.slider_2 {
+    background: none;
+    padding-bottom: 0;
+    .swiper__container {
+        max-width: none;
+    }
+    .slider_2Swiper {
+        max-width: 1700px;
+    }
+    .swiper-button-next {
+        background-image: url('../img/arrowPrev.svg');
+        transform: rotate(180deg);
+    }
+    .swiper-button-prev {
+        background-image: url('../img/arrowPrev.svg');
+        transform: rotate(0);
+    }
+    .swiper-slide {
+        height: 465px;
+    }
+    @media (max-width: 510px) {
+        .swiper-slide {
+            height: 255px;
+        }
+    }
+}

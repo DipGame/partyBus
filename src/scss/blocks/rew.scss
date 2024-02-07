@@ -1,0 +1,172 @@
+.rew {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 80px;
+
+    .slider_3 {
+        padding-top: 30px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    h2 {
+        width: 100%;
+        max-width: 1170px;
+        margin: 0 auto;
+    }
+
+    @media (max-width: 560px) {
+        .stars svg {
+            width: 14px;
+            height: 14px;
+        }
+    }
+
+    .swiper-slide {
+        background-color: #FFF;
+        height: 285px;
+        padding: 30px;
+    }
+
+    .slider_3Swiper {
+        max-width: 1170px;
+    }
+
+    .swiper__container {
+        max-width: 1340px;
+    }
+
+    .top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h3 {
+            font-family: Onest;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 31px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #1D1D1D;
+        }
+    }
+
+    span {
+        font-family: Onest;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #1D1D1D;
+        opacity: .5;
+    }
+
+    p {
+        font-family: Onest;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #1D1D1D;
+        margin-top: 20px;
+    }
+
+    .bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+        gap: 10px;
+
+        a {
+            font-family: Onest;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 17px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #ED2226;
+        }
+    }
+
+    @media (max-width: 370px) {
+        .top {
+            h3 {
+                font-size: 16px;
+            }
+        }
+
+        .stars svg {
+            width: 10px;
+            height: 10px;
+        }
+    }
+}
+
+body.background_body {
+    .predlog {
+        background-color: #221D48;
+        border: 1px solid #403C68;
+
+        h2,
+        p {
+            color: #FFF;
+        }
+    }
+
+    .predlog_bottom {
+        background-color: #221D48;
+
+        .card {
+            border: 1px solid #403C68;
+        }
+
+        h3,
+        p {
+            color: #FFF;
+        }
+    }
+
+    .rew {
+        h2 {
+            color: #FFF;
+        }
+
+        .swiper-slide {
+            background-color: #221D48;
+
+            h3,
+            span,
+            p,
+            a {
+                color: #FFF;
+            }
+        }
+    }
+
+    .slider_2 .swiper-button-next {
+        background-image: url("../img/arrowNext_2.svg");
+        transform: rotate(0);
+    }
+
+    .slider_2 .swiper-button-prev {
+        background-image: url("../img/arrowNext_2.svg");
+        transform: rotate(180deg);
+    }
+
+    .slider_1 .swiper-button-prev.swiper-button-disabled,
+    .slider_1 .swiper-button-next.swiper-button-disabled {
+        background-image: url("../img/arrowNext_2.svg");
+        transform: rotate(180deg);
+    }
+    .slider_1 .swiper-button-next.swiper-button-disabled {
+        transform: rotate(0);
+    }
+
+    .bottom__list {
+        background-color: #221D48;
+    }
+}
